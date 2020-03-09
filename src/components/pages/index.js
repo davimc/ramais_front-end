@@ -20,9 +20,9 @@ export default class Main extends Component {
             <div className="contact-list">
                 {contacts.map(contact => (
                     <article key={contact.id}>
-                        <strong>{contact.nome}</strong>
-                        <p>{contact.setor.nome}</p>
-                        <p>{contact.telefone.ramal}</p>
+                        <p>nome: <strong> {contact.nome}</strong></p>
+                        <p>setor: <strong  id="setor">{contact.setor.nome}</strong></p>
+                        <p>ramal: <strong>{contact.telefone.ramal}</strong></p>
                         <a>acessar</a>
                     </article>
                 ))}
