@@ -1,6 +1,7 @@
 import React from 'react';
-import "./styles.css";
+import "materialize-css/dist/css/materialize.min.css";
 import Header from "./components/hearder/index";
+
 import Main from './components/pages/index'
 
 
@@ -8,7 +9,9 @@ import Main from './components/pages/index'
 const App = () => (
   <div className="App">
       <Header/>
+      
       <Main/>
+      
     </div>
 )
 

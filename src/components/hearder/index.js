@@ -1,20 +1,21 @@
 import React from "react";
-import "./styles.css"
+import "materialize-css/dist/css/materialize.min.css";
 
 
 const Header = () => (
-    <header id="main-header">
-        <ul>
-            <li><a href="#">Contatos</a></li>
-            <li><a href="#">Setor</a></li>
-            <li><a href="#">Ramal</a></li>
-        </ul>
-        <h1>Ramais</h1>
-        <form>
-            <input></input>
-            <i class="fas fa-search"></i>
-        </form>
-        </header>
+
+    <nav>
+    <div className="nav-wrapper  blue darken-2">
+      <a href="/" className="brand-logo ">MPF</a>
+      <ul className="right">
+        <li>
+            <a href="sass.html">Contato</a></li>
+        <li><a href="badges.html">Setor</a></li>
+        <li><a href="collapsible.html">Ramal</a></li>
+      </ul>
+    </div>
+  </nav>
 );
+
 
 export default Header;
