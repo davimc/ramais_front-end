@@ -1,6 +1,7 @@
-#search{
-    top:auto;
-    left:auto;
-    
-    
+
+.card{
+    min-width: 33%;
+
+    max-width: 95%;
 }
+

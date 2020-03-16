@@ -11,7 +11,6 @@ const Header = () => (
         <li>
             <a href="sass.html">Contato</a></li>
         <li><a href="badges.html">Setor</a></li>
-        <li><a href="collapsible.html">Ramal</a></li>
       </ul>
     </div>
   </nav>
