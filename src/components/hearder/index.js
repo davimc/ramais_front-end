@@ -5,8 +5,8 @@ import "materialize-css/dist/css/materialize.min.css";
 const Header = () => (
 
     <nav>
-    <div className="nav-wrapper  blue darken-2">
-      <a href="/" className="brand-logo ">MPF</a>
+    <div className="nav-wrapper   blue darken-2">
+      <a href="/" className="brand-logo center"> MPF</a>
       <ul className="right">
         <li>
             <a href="sass.html">Contato</a></li>

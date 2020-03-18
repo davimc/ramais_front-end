@@ -41,11 +41,11 @@ export default class Main extends Component {
                                 <div className="card-stacked">
                                     <div className="card-content">
 
-                                        <p>nome: <strong> {contact.nome}</strong></p>
-                                        <p>setor: <strong> {contact.setor.nome}</strong></p>
-                                        <p>telefone: <strong> {contact.telefone.numero}</strong></p>
+                                        <p>nome:<strong> {contact.nome}</strong></p>
+                                        <p>email:<strong> {contact.email}</strong></p>
+                                        <p>setor:<strong className="sector"> {contact.setor.nome}</strong></p>
 
-                                        <p>ramal: <strong> {contact.telefone.ramal}</strong></p>
+                                        <p>ramal:<strong> {contact.telefone.ramal}</strong></p>
 
                                     </div>
                                     <div className="card-action center-align">

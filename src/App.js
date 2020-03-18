@@ -16,11 +16,15 @@ export default class App extends Component {
     console.log(response.data);
     this.setState({ contacts: response.data });
   };*/
+  //COntinuar lendo em https://medium.com/@joaolucasluc/comunicacao-entre-componentes-react-8574108b5043
+  //e
+  //https://stackoverflow.com/questions/25139388/how-to-use-setprops-in-react-js
   render() {
     return (
       <div className="App grey lighten-2">
         <Header />
-        <SearchBar />
+        
+        <SearchBar handleChange={this.handleSubmit.bind(this)}/>
         <Main />
 
       </div>

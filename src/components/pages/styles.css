@@ -4,4 +4,10 @@
 
     max-width: 95%;
 }
-
+.card-content p strong{
+    margin-left:3px;
+}
+.sector{
+    text-transform: uppercase;
+    font-weight: 800;
+}
